@@ -1,2 +1,2 @@
 
-Twitter Clone built in React Js and Firebase
+Twitter Home Page Clone built in React Js and Firebase
