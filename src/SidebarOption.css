@@ -1,0 +1,30 @@
+.sidebarOption div .sidebarOption__button {
+    display: flex!important;
+    align-items: center!important;
+    cursor: pointer!important;
+    text-transform: capitalize!important;
+    margin-bottom: 2px;
+  }
+  
+  .sidebarOption div .sidebarOption__button:hover {
+    background-color: #e8f5fe!important;
+    border-radius: 30px!important;
+    color: var(--twitter-color)!important;
+    transition: color 100ms ease-out;
+    
+  }
+  
+  .sidebarOption div > .sidebarOption__button .MuiSvgIcon-root {
+    padding: 13px!important;
+  }
+  
+  .sidebarOption div .sidebarOption__button h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-left:20px;
+  }
+  
+  .sidebarOption--active {
+    color: var(--twitter-color);
+  }
